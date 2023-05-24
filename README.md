@@ -1,2 +1,2 @@
 # 10KCoders
-To track assignments
+To track assignments and for collaboration
