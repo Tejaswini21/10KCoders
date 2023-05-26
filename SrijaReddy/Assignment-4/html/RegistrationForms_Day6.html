@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            *{
+                margin: 0px;
+            }
+            .main{
+                height: 980px;
+            }
+            .sub1{
+                height: 112px;
+                background-color: black;
+            }
+            .sub2{
+                height: 868px;
+                display: flex;
+                background-color: aliceblue;
+            }
+            .frstsub{
+                height: 868px;
+                width: 700px;
+            }
+            .scndsub{
+                height: 868px;
+                width: 1300px;
+            }
+            .frst{
+                height: 868px;
+                width: 1300px;
+                display: flex;
+                margin-left: 125px;
+                margin-top: 15px;
+            }
+            .one{
+              height: 868px;
+              width: 650px;
+            }
+            .two{
+              height: 865px;
+              width: 650px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="sub1"><h1 style="color: white; font-size: 65px; padding-top: 15px; text-align: center;" >Registration Form</h1></div>
+            <div class="sub2">
+                <div class="frstsub">
+                    <img style="margin: 30px 10px 10px 30px; border-radius: 35px;" src="../Images/registration.jpg" alt="Registration" height="780px" width="650px"/>
+                </div>
+                <div class="scndsub">
+                            <form action="./RegisSucc_Day6.html" class="form1">
+                                <div class="frst">
+                            <div class="one">
+                                <label for="fname"><h3>First Name <sup style="color: red;">*</sup></h3></label><br/>
+                                <input style="height: 60px; width: 400px; border-radius: 8px;" id="fname" type="text" pattern="[a-zA-Z]{3-15}" required/><br/><br/>
+                                <label for="lname"><h3>Last Name  <sup style="color: red;">*</sup></h3></label><br/>
+                                <input style="height: 60px; width: 400px; border-radius: 8px;" id="lname" type="text" pattern="[a-zA-Z]{3-30}" required/><br/><br>
+                                <label for="mail"><h3>Email  <sup style="color: red;">*</sup></h3></label><br/>
+                                <input style="height: 60px; width: 400px; border-radius: 8px;" id="mail" type="email" required/><br/><br>
+                                <label for="phone"><h3>Phone Number  <sup style="color: red;">*</sup></h3></label><br>
+                                <input style="height: 60px; width: 400px; border-radius: 8px;" id="phone" type="tel" pattern="[0-9]{10}" required/><br/><br>
+                                <label for="dob"><h3>Date Of Birth  <sup style="color: red;">*</sup></h3></label><br>
+                                <input style="height: 60px; width: 400px; border-radius: 8px;" id="dob" type="date" required/><br><br>
+                                <label for="gender"><h3>Gender </h3></label><br>
+                                <input id="female" name="gender" type="radio"/>
+                                <label style="font-size: 20px;" for="female">Female &nbsp;</label>
+                                <input id="male" name="gender" type="radio"/>
+                                <label style="font-size: 20px;" for="male">Male</label><br><br>
+                                <label for="conditions"><h3>Terms and Conditions  <sup style="color: red;">*</sup></h3></label><br>
+                                <input type="checkbox" id="term1" name="conditions" checked/>
+                                <label for="term1" style="font-size: 20px;">I agree with all terms and conditions</label><br>
+                                <input type="checkbox" id="term2" name="conditions"/>
+                                <label for="term2" style="font-size: 20px;">I consent for whatsapp</label><br>
+                          </div>
+                            <div class="two">
+                                <label for="hno"><h3>House/Flat Number  <sup style="color: red;">*</sup></h3></label><br/>
+                                <input style="height: 60px; width: 400px; border-radius: 8px;" id="hno" type="text" required/><br/><br/>
+                                <label for="landmark"><h3>Land Mark </h3></label><br/>
+                                <input style="height: 60px; width: 400px; border-radius: 8px;" id="landmark" type="text"/><br/><br>
+                                <label for="pincode"><h3>Pincode  <sup style="color: red;">*</sup></h3></label><br/>
+                                <input style="height: 60px; width: 400px; border-radius: 8px;" id="pincode" type="text" pattern="[0-9]{6}" required/><br/><br>
+                                <label for="district"><h3>District  <sup style="color: red;">*</sup></h3></label><br>
+                                <select style="height: 60px; width: 400px; border-radius: 8px; font-size: 20px;" id="district" required>
+                                    <option value="rangareddy">Rangareddy</option>
+                                    <option value="nizambad">Nizamabad</option>
+                                    <option value="vikarabad">Vikarabad</option>
+                                    <option value="warangal">Warangal</option>
+                                    <option value="medchal">Medchal</option>
+                                    <option value="nalgonda">Nalgonda</option>
+                                    <option value="hanumakonda">Hanumakonda</option>
+                                    <option value="adilabad">Adilabad</option>
+                                </select><br><br>
+                                <label for="state"><h3>State  <sup style="color: red;">*</sup></h3></label><br>
+                                <select style="height: 60px; width: 400px; border-radius: 8px; font-size: 20px;" id="state" required>
+                                    <option value="telangana">Telangana</option>
+                                    <option value="karnataka">Karnataka</option>
+                                    <option value="tamilnadu">Tamilnadu</option>
+                                    <option value="delhi">Delhi</option>
+                                    <option value="maharashtra">Maharashtra</option>
+                                    <option value="kerela">Kerela</option>
+                                    <option value="andrapradesh">AndhraPradesh</option>
+                                    <option value="bihar">Bihar</option>
+                                </select><br><br>
+                                <label for="govid"><h3>Government Id  <sup style="color: red;">*</sup></h3></label><br>
+                                <input type="file" required/><br><br><br>
+                                <input style="height: 60px; width: 160px; font-size: 20px; border-radius: 10px; background-color: black; color: white;" type="submit"/>
+                             </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

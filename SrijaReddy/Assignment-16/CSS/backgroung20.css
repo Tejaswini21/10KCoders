@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 1000px;
+    width: 100%;
+    opacity: 0.5;
+    background-image: url('./../Images/World-Environment-Day-wishes.jpg');
+    background-size: 100% 100%;
+    position: relative;
+}
+.para{
+    text-align: center;
+    font-size: 45px;
+    position: absolute;   
+    top: 380px;
+    left: 550px;
+    
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    position: absolute; 
+    top: 510px;
+    left: 830px;  
+}
