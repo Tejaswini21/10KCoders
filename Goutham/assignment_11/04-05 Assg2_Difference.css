@@ -1,0 +1,38 @@
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    background-color: black;
+  }
+  
+  td{
+    
+        color:yellow;
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+  } 
+  
+  th {
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  
+    background-color: black;
+    font-weight: bold;
+  }
+  h1{
+    background-color: black;
+    color: red;
+    text-align: center;
+  }
+  li {
+    color: black;
+    font-weight: bolder;
+  }
+  body{
+    background-color: deeppink;
+  }

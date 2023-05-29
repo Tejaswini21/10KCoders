@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+    text-align: center;
+    background-color: black;
+    
+}
+label{
+    color: whitesmoke;
+}
+h1{
+    color: yellow;
+    text-align: center;
+}
+label{
+    text-align: left;
+}
+#fname{
+    color: black;
+}
+#lname{
+    color:black;
+}
+#dob{
+    color: black;
+}
+#email{
+    color: black;
+}
+.phoneno{
+    color: black;
+}
+#degree{
+    color: black;
+}
+.passingyear{
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <fieldset>
+    <div>
+    <form>
+
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" class="firstname" placeholder="firstname"> <br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" class="lastname" placeholder="lastname"><br>
+        <label for="dob">Date of Birth</label><br>
+        <input type="text" id="dob" class="dateofbirth" placeholder="DOB"><br>
+        <label for="email">Email-id</label><br>
+        <input type="email" id="email" class="emailid" placeholder="abcd@abc.com" required><br>
+        <label for="phn">Mobile No:</label><br>
+        <input type="tel" id="phn" class="phoneno" placeholder="0123456789" pattern="[0-9]{10}"><br>
+        <label for="degree">Qualification</label><br>
+        <input type="text" id="degree" class="graduate" placeholder="b-tech/degree/"><br>
+        <label for="year">Year of Pass</label><br>
+        <input type="text" id="year" class="passingyear" placeholder="...2022/2023"><br>
+        <label for="resume" >Resume</label><br>
+        <input type="file" id="resume" class="coverletter"><br>
+        <input type="checkbox" id="terms" class="Conditions">
+        <label for="terms">Terms and Conditions</label><br>
+        <input type="submit" id="button" value="register">
+
+    </form></div>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+    text-align: center;
+    background-color:white;
+
+}
+
+h2{
+    color:black;
+    background-color:red;
+    text-align: center;
+}
+body{
+    color: aquamarine;
+    background-color: black;
+}
+h3{
+    color: aqua;
+}

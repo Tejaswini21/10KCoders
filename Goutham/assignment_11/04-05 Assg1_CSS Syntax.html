@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="./04-05 Assg1_CSS Syntax.css" type="text/css">
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    
+    <p>CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML.</p>
+    <p>The types of CSS Selectors are.</p>
+    <ol>
+        <li>Element Selector</li>
+        <li>Group Selector</li>
+        <li>Universal Selector</li>
+        <li>combination Selector</li>
+        <li>Attribute Selector</li>
+        <li>Id Selector</li>
+        <li>Class Selector</li>
+    </ol>
+    <h2>Element Selector</h2>
+    <P>An element selector is used to select and apply styles to HTML elements on a web page.It specify the name of HTML element.</P>
+
+    <h2>Group Selector</h2>
+    <P>A group selector is a way to select multiple elements at once and apply the same styles to all of them. The syntax for a group selector is to list the selectors for each element separated by a comma.</P>
+    
+    <h2>Universal Selector</h2>
+    <P>The universal selector is a selector that matches all elements on a web page. The universal selector is represented by an asterisk (*).</P>
+
+    <h2>Combination Selector</h2>
+    <p>A combination selector is a selector that combines two or more selectors in order to select elements that match both selectors. There are several types of combination selectors in CSS, including the following:
+    </p>
+    
+     <h2>Descendant Selector.</h2>
+    <p> The descendant selector selects all elements that are descendants of a specified element. /* ul li{ css style}*/</p>
+
+    <h2>Child Selector.</h2>
+    <p>The child selector selects all elements that are first children of a specified element.The child selector is represented by the ">" symbol between two selectors.</p>
+    
+    <h2>Adjacent Sibling Selector.</h2>
+    <P>Adjacent Sibling Selector is used for adjacent element. The adjacent sibling selector is represented by the "+" symbol between two selectors.</P>
+    
+    <h2>General Sibling Selector.</h2>
+    
+    <p>General Sibling Selector applies style to the next element. The general sibling selector is represented by the "~" symbol between two selectors.</p>
+    
+
+    <h2>Attribute Selector</h2>
+
+    <p>An attribute selector is a selector that matches elements based on the presence or value of an attribute. It will apply style based on attribute. </p>
+    <p>The types of Attribute Selectors are:</p>
+   
+    <h3>input[attribute name]</h3>
+    <p>It will check the attribute is present and then only it will apply if it is present </p>
+
+    <h3>input[attribute=value]</h3>
+    <p>It will check the attribute value and apply the style</p>
+
+    <h3>input[attribute~=word]</h3>
+    <p>It will search for the word in attribute and it will apply the style </p>
+
+    <h3>input[attribute^=word]</h3>
+    <p>It checks the attribute value which starts with the word, it will apply the style</p>
+
+    <h3>input[attribute$=word]</h3>
+    <p>It checks the attribute value which ends with the word, it will apply the style</p>
+
+    <h2>Id Selector</h2>
+    <p>an ID selector is a selector that selects elements based on their ID attribute. The ID selector is represented by the "#" symbol followed by the ID of the element. </p>
+    <p>Example: #myElement {
+        /* CSS styles go here */
+      }
+      </p>
+
+    <h2>Class Selector</h2>
+    <p>A class selector is a selector that selects elements based on their class attribute. The class selector is represented by a period (".") followed by the name of the class.</p>
+    <p>Example: .myClass {
+        /* CSS styles go here */
+      }
+      </p>
+
+
+</body>
+</html>
