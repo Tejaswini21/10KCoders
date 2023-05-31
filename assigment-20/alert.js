@@ -1,0 +1,10 @@
+var a="srikanth";
+alert(a);
+a="srikanth yadav";
+alert(a);
+a="junnu srikanth yadav";
+alert(a);
+a="Chotu";
+alert(a);
+a="srikanth592";
+alert(a);

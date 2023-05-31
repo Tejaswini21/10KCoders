@@ -1,0 +1,12 @@
+.id {
+    background-color: cadetblue;
+}
+.class {
+    background-color: dimgrey;
+}
+.attr {
+    background-color: lightgreen;
+}
+*{
+    background-color: lightsalmon;
+}

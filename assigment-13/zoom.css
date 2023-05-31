@@ -1,0 +1,52 @@
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(5,100px);
+    gap: 10px;
+    justify-content: center;
+    
+    margin: 10px;
+}
+.mem{
+    border: 3px solid wheat;
+    color: white;
+    text-align: center;
+    padding: 29px;
+}
+button{
+    border: 1px solid red;
+    padding: 2px 3px 2px 3px;
+    color: white;
+    background-color: red;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.list{
+    justify-content: space-between;
+    
+    
+}
+.list li{
+    justify-content: space-between;
+}
+.item{
+    list-style-type: none;
+    display: flex;
+    flex-grow: 2;
+    
+}
+
+
+.head{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}

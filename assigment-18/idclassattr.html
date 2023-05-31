@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between id,class,attribute selectors</title>
+    <link rel="stylesheet" href="idclassattr.css" type="text/css">
+    <style>
+        h2{
+            text-align: center;
+        }
+        table,tr,th,td
+        {
+            border: 1px solid;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Difference between Id and Class and Attribute Selectors</h2>
+    <hr><br><bR>
+    <div>
+        <table>
+            <tr>
+                <th class="id">Id</th>
+                <th class="class">Class</th>
+                <th class="attr">Attribute</th>
+            </tr>
+            <tr>
+                <td class="id">Syntax:In html for an element the id name starts with the '#' symbol followed by a unique name assigned to it.</td>
+                <td class="class">Syntax:Class assigned to an element has its name starts with '.' followed by class name.</td>
+                <td class="attr">The [attribute] selector is used to select element with a specified attribute.</td>
+            </tr>
+            <tr>
+                <td class="id">Selector:only one id selector can be attached to a element.</td>
+                <td class="class">Multiple class selectors can be attached to an element.</td>
+                <td class="attr">input[attributename] - it will check if that attribute is present ,only then it will apply style.</td>
+            </tr>
+            <tr>
+                <td class="id">Id unique in a page and can only apply to at most one element.</td>
+                <td class="class">The class can be applied to multiple element so it could be multiple times on a single page.</td>
+                <td class="attr">
+                    <ul class="attr">
+                        <li class="attr">input[attribute="value"] - it will check which element has that attribute value and applies style.</li><br>
+                        <li class="attr">input[attribute~="word"] - it will search for that word in attribute value,it will apply style.
+                        </li><br>
+                        <li class="attr">input[attribute^="word"] - checks attribute values which start with that word,it will apply style.</li><br>
+                        <li class="attr">input[attribute$="word"] - checks attribute value which ends with that word and applies style.</li>
+                    </ul>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
