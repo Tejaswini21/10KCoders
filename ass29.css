@@ -1,0 +1,45 @@
+.js-container{
+    background-color:orange;
+    animation:colrch;
+    animation-duration: 6s;
+    background-size: cover;
+height: 190vh;
+width:100vw;
+text-align: center;
+}
+@keyframes colrch {
+    from{
+        background-color: orange;
+    }
+    to{
+        background-color: blue;
+        background-image:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+    }
+    
+}
+.heading{
+    color:white;
+    font-weight: bold;
+    animation: head;
+    animation-duration: 3s;
+}
+@keyframes head {
+    from{
+        color:white;
+
+    }
+    to{
+        color:green;
+    }
+    
+}
+summary{
+    color:blue;
+    font-size:24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+}
+ul{
+    text-align: center;
+    color:white;
+}
