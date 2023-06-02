@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forgot Password</title>
+        <style>
+            *{
+                margin: 0px;
+            }
+            .main{
+                height: 993px;
+                background-color: aliceblue;
+            }
+            .sub1{
+                height: 130px;
+                text-align: center;
+                font-size: 35px;
+                padding-top: 30px;
+                color: white;
+                background-color: black;
+            }
+            .sub2{
+                display: flex;
+            }
+            .one{
+                height: 863px;
+                width: 950px;
+            }
+            .two{
+                height: 863px;
+                width: 1100px;
+            }
+            .frst{
+                padding: 60px 30px 30px 400px;
+            }
+            .scnd{
+                padding: 45px 30px 30px 350px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="sub1">
+                <h1>Reset Password</h1>
+            </div>
+            <div class="sub2">
+             <div class="one">
+                <img style="margin-top: 50px; margin-left: 100px; border-radius: 15px;" src="../Images/forgot.jpg" alt="Login" height="700px" width="850"/>
+             </div>
+                <div class="two">
+                    <div class="frst">
+                        <img style="margin-left: 100px; margin-bottom: 30px;" src="../Images/usersymbol.png" alt="user" height="80px" width="80px"/>
+                        <h2 style="font-size: 45px;"><strong>Password Details</strong></h2>
+                    </div>
+                    <div class="scnd">
+                        <form action="./Login_Day6.html">
+                            <label for="mail"><h3>Email/Phone No <sup style="color: red;">*</sup></h3></label><br/>
+                            <input style="height: 60px; width: 400px; border-radius: 8px;" id="mail" type="email" required/><br/><br>
+                            <label for="password"><h3>Enter New Password <sup style="color: red;">*</sup></h3></label><br>
+                            <input style="height: 60px; width: 400px; border-radius: 8px;" id="password" type="password" pattern="[0-9A-Za-z@]{4-15}" required/><br/><br><br>
+                            <label for="password"><h3>Confirm New Password <sup style="color: red;">*</sup></h3></label><br>
+                            <input style="height: 60px; width: 400px; border-radius: 8px;" id="password" type="password" pattern="[0-9A-Za-z@]{4-15}" required/><br/><br><br>
+                            <button style="height: 60px; width: 160px; font-size: 20px; border-radius: 10px; background-color: black; color: white; margin-left: 130px;" type="submit">Submit</button>
+                        </form>
+                    <div>
+                                
+                </div>
+            </div>
+        </div>
+            
+    </body>
+</html>

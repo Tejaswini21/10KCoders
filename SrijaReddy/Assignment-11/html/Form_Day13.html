@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .inputbox{
+            height: 60px;
+            width: 380px;
+            border-radius: 8px;
+            background-color: aliceblue;
+        }
+        #button{
+            height: 60px;
+            width: 170px;
+            font-size: 22px;
+            border-radius: 8px;
+            color: white;
+            background-color: black;
+        }
+        sup{
+            color: red;
+        }
+        h1{
+            font-size: 50px;
+        }
+        label[for="fname"]{
+            font-size: 21px;
+            color: lightcoral;
+        }
+        label[for="lname"]{
+            font-size: 21px;
+            color: lightcoral;
+        }
+        label[for="resume"]{
+            font-size: 21px;
+            color: blue;
+        }
+        label[for="dob"]{
+            font-size: 21px;
+            color: green;
+        }
+        label[for="poy"]{
+            font-size: 21px;
+            color: green;
+        }
+        label[for="email"]{
+            font-size: 21px;
+            color: violet;
+        }
+        label[for="phno"]{
+            font-size: 21px;
+            color: violet;
+        }
+        label[for="domain"]{
+            font-size: 21px;
+            color: royalblue;
+        }
+        .head{
+            margin-left: 750px;
+        }
+        input{
+            font-size: 20px;
+        }
+        .main{
+            height: 950px;
+            width: 500px;
+            border-radius: 8px;
+            border: 2px solid black;
+            margin-top: 30px;
+            margin-left: 650px;
+            padding-left: 100px;
+            padding-top: 30px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+      <div class="head">
+        <h1 style="margin-right: 60px;">Registration Form</h1>
+        </div>
+        <div class="main">
+        <form action="./RegisSucc_Day6.html">
+          <label for="fname"><strong>First Name<sup>*</sup></strong></label><br>
+          <input class="inputbox" type="text" id="fname" required/><br><br>
+          <label for="lname"><strong>Last Name<sup>*</sup></strong></label><br>
+          <input class="inputbox" type="text" id="lanme" required/><br><br>
+          <label for="dob"><strong>Date Of Birth<sup>*</sup></strong></label><br>
+          <input class="inputbox" type="date" id="dob" required/><br><br>
+          <label for="email"><strong>Email Address<sup>*</sup></strong></label><br>
+          <input class="inputbox" type="email" id="email" required/><br><br>
+          <label for="phno"><strong>Phone Number<sup>*</sup></strong></label><br>
+          <input class="inputbox" type="tel" id="phno" pattern="[0-9]{10}" required/><br><br>
+          <label for="poy"><strong>PassedOut Year<sup>*</sup></strong></label><br>
+          <input class="inputbox" type="text" id="poy" pattern="[0-9]{4}" required/><br><br>
+          <label for="domain"><strong>Interested Domains<sup>*</sup></strong></label><br>
+          <input type="checkbox" id="front" checked/>
+          <label for="front"><strong>FrontEnd Developer</strong></label><br>
+          <input type="checkbox" id="backend"/>
+          <label for="backend"><strong>BackEnd Developer</strong></label><br>
+          <input type="checkbox" id="full"/>
+          <label for="full"><strong>FullStack Developer</strong></label><br>
+          <input type="checkbox" id="java"/>
+          <label for="java"><strong>Java Developer</strong></label><br><br>
+          <label for="resume"><strong>Resume<sup>*</sup></strong></label><br>
+          <input type="file" required/><br><br>
+          <input id="button" type="submit"/>
+        </form>
+       </div>
+</body>
+</html>

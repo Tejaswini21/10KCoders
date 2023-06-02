@@ -1,0 +1,16 @@
+*{
+    background-color: whitesmoke;
+}
+h1{
+    background-color: palegreen;
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    background-color: lavender;
+    font-size: 30px;
+    text-align: center;
+}
+p,li{
+    font-size: 19px;
+}

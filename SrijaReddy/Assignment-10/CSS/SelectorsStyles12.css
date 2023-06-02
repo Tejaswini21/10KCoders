@@ -1,0 +1,23 @@
+*{
+    background-color: aliceblue;
+}
+h1{
+    font-size: 45px;
+    background-color: lightcoral;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+    background-color: lavender;
+    text-align: center;
+}
+h3{
+    font-size: 23px;
+    font-weight: bold;
+}

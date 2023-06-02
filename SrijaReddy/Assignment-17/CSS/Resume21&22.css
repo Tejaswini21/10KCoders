@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+.side{
+    width: 30%;
+    background-color: #57A0D2;
+}
+.content{
+    width: 70%;
+    display: inline;
+    padding-left: 25px;
+    background-color: aliceblue;
+}
+.name{
+    display: flex;
+}
+.heading3{
+    height: 33px;
+    width: 100%;
+    background-color: #0E4C92;
+    color: white;
+    font-size: 22px;
+    padding-top: 5px;
+    text-align: center;
+    animation-name: change;
+    animation-duration: 7s;
+    animation-iteration-count: 10;
+}
+@keyframes change{
+    from{
+       background-color: #0E4C92;
+    }
+    to{
+      background-color:black;
+    }
+}
+.contact{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 1.8;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.list{
+    font-size: 23px;
+    list-style-type: circle;
+    padding-left: 40px;
+    line-height: 1.8;
+    padding-top: 15px;
+}
+.list1{
+    font-size: 23px;
+    list-style-type: none;
+    padding-left: 40px;
+    line-height: 1.8;
+    padding-top: 10px;
+}
+.heading{
+    color: #0E4C92 ;
+    font-size: 25px;
+    margin-top: 30px;
+    animation-name: colorchange;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+}
+@keyframes colorchange{
+    from{
+        color: #0E4C92;
+        font-size: 25px;
+    }
+    to{
+        color: darkcyan;
+        font-size: 30px;
+    }
+}
+.heading1{
+    color: #0E4C92 ;
+    font-size: 35px;
+    animation-name: headingchange;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+}
+@keyframes headingchange{
+    from{
+        color: #0E4C92;
+        font-size: 35px;
+    }
+    to{
+        color: darkseagreen;
+        font-size: 40px;
+    }
+
+}
+.para1{
+    font-size: 20px;
+    line-height: 1.8;
+}
+th{
+    font-weight: bolder;
+    font-size: 22px;
+    color: #0E4C92;
+    
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table,td{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.project{
+    font-size: 20px;
+    padding-left: 40px;
+    line-height: 1.8;
+}
+.para3{
+    font-size: 20px;
+    color: #0E4C92;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.portfolios{
+    line-height: 1.6;
+    padding-left: 10px;
+}
+.para4{
+    font-size: 20px;
+    padding-left: 50px;
+}
+.techskill{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.images{
+    animation-name: rotateimage;
+    animation-duration: 8s;
+    animation-iteration-count: 10;
+
+}
+@keyframes rotateimage{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.stars{
+    animation-name: movestars;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+}
+@keyframes movestars{
+    from{
+        transform: scale(1,1)
+    }
+    to{
+        transform: scale(2,2);
+        transition-property: all;
+    }
+}
+

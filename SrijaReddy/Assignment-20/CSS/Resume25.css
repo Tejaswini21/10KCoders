@@ -1,0 +1,120 @@
+*{
+  margin: 0px;
+  padding: 0px;  
+}
+.main{
+    width: 50% !important;
+    margin-top: 30px;
+}
+.header{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.contacts{
+    display: flex;
+}
+.contacts a{
+ text-decoration: none;
+ font-size: 18px;
+ color: black;
+}
+.contacts img{
+    margin-right: 10px;
+}
+.image{
+    border-radius: 50%;
+}
+.profileimg{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.objective{
+    margin-top: 20px;
+}
+.objective p{
+    font-size: 18px;
+    text-align: center;
+}
+.education{
+    text-align: center;
+}
+.education p{
+    font-size: 18px;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    border-left: 6px solid rgb(242, 127, 20);
+    border-right: 6px solid rgb(242, 127, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    from{
+       border-left: 6px solid rgb(242, 127, 20);
+       border-right: 6px solid rgb(242, 127, 20);
+    }
+    to{
+        border-left: 6px solid rgb(195, 205, 10);
+        border-right: 6px solid rgb(195, 205, 10);
+    }
+}
+.skills{
+    line-height: 3.0;
+    padding-left: 100px;
+    font-size: 18px;
+}
+.educaction{
+    font-size: 20px;
+}
+.unlist{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    font-size: 18px;
+    line-height: 2.5;
+}
+.images{
+  animation-name: rotateimage;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotateimage{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.stars{
+    animation-name: movestars;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes movestars{
+    from{
+        transform: scale(1,1)
+    }
+    to{
+        transform: scale(2,2);
+        transition-property: all;
+    }
+}
+.portfolios{
+    display: flex;
+    justify-content: center;
+    padding-left: 270px;
+}
+.portfolios a{
+    text-decoration: none;
+    color: black;
+}

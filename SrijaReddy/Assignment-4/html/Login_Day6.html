@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <style>
+            *{
+                margin: 0px;
+            }
+            .main{
+                height: 993px;
+                background-color: aliceblue;
+            }
+            .sub1{
+                height: 130px;
+                text-align: center;
+                font-size: 35px;
+                padding-top: 30px;
+                color: white;
+                background-color: black;
+            }
+            .sub2{
+                display: flex;
+            }
+            .one{
+                height: 863px;
+                width: 950px;
+            }
+            .two{
+                height: 863px;
+                width: 1100px;
+            }
+            .frst{
+                padding: 60px 30px 30px 400px;
+            }
+            .scnd{
+                padding: 60px 30px 30px 350px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="sub1"><h1>User Login</h1></div>
+            <div class="sub2">
+            <div class="one">
+                <img style="margin-top: 50px; margin-left: 100px; border-radius: 15px;" src="../Images/login.jpg" alt="Login" height="700px" width="800"/>
+            </div>
+                <div class="two">
+                    <div class="frst">
+                        <img style="margin-left: 100px; margin-bottom: 30px;" src="../Images/user.png" alt="user" height="80px" width="80px"/>
+                        <h2 style="font-size: 45px;"><strong>Login Details</strong></h2></div>
+                    <div class="scnd">
+                        <form>
+                            <label for="mail"><h3>Email/Phone No <sup style="color: red;">*</sup></h3></label><br/>
+                            <input style="height: 60px; width: 400px; border-radius: 8px;" id="mail" type="email" required/><br/><br>
+                            <label for="password"><h3>Password <sup style="color: red;">*</sup></h3></label><br>
+                            <input style="height: 60px; width: 400px; border-radius: 8px;" id="password" type="password" pattern="[0-9A-Za-z@]{4-15}" required/><br/><br><br>
+                            <div style="display: flex;">
+                                <div>
+                                <button style="height: 60px; width: 160px; font-size: 20px; border-radius: 10px; background-color: black; color: white;" type="submit" formaction="./Profile_Day8.html">Login</button>
+                                </div>
+                            </form>
+                            <div>
+                                <form>
+                                <button style="height: 60px; width: 160px; font-size: 20px; border-radius: 10px; background-color: black; color: white; margin-left: 75px;" type="submit"  formaction="./RegistrationForms_Day6.html">Register</button><br><br><br>
+                                </form>
+                            </div>
+                            </div>
+                            <a style="font-size: 25px; padding-left: 120px; padding-top: 20px;" href="./forgotpass_Day8.html" target="_blank">Forgot Password</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
