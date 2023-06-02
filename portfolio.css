@@ -1,0 +1,171 @@
+body{
+    background-color: black;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    text-align: center;
+
+   
+ }
+   
+a{
+    text-decoration: none;
+    position:relative;
+    color:white;
+    
+
+}
+header .nav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding:10px;
+    margin:20px;
+    
+    
+
+
+}
+a:after{
+
+  content: "";
+  position: absolute;
+  background-color: palevioletred;
+  height: 2px;
+  width:0;
+  left:0;
+  bottom:-10px;
+  transition: 0.3s;
+}
+
+  a:hover::after{
+    width:100%;
+
+
+}
+.container{
+    color:white;
+    text-align:center;
+    padding: 5em;
+    
+}
+.container span{
+    color:palevioletred;
+}
+.main{
+    width:100vw;
+    height: 60vh;
+    background-color: palevioletred;
+    padding-top: 1rem;
+    display:flex;
+    justify-content: space-evenly;
+    
+
+}
+.line{
+    text-decoration: underline;
+    
+    text-decoration-color: white;
+    
+}
+.skills{
+    width:100vw;
+    height:90vh;
+    color:white;
+}
+footer{
+    background-color: palevioletred;
+    color:black;
+    padding: 2rem;
+    text-align: center;
+    
+    
+
+}
+i:hover{
+    color: white;
+   
+}
+.button{
+    background-color:black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  
+  font-size: 12px;
+ 
+  cursor: pointer;
+  border-radius: 20px;
+  border:ridge;
+  margin-left: 35%;}
+  
+  
+button:hover{
+    background-color: palevioletred;
+}
+.progressbar{
+    height: 20px;
+    width:250px;
+    border-radius: 6px;
+    background-color: pink;
+}
+.progressbar div{
+    height:20px;
+    width:50%;
+    border-radius: 6px;
+    background-color: palevioletred;
+}
+.progressbar div span{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: black;
+    float:right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.html{
+    
+    animation: html 2s linear forwards;
+}
+.Css{
+    
+    animation: Css 2s linear forwards;
+}.javascript{
+    
+    animation: javascript 2s linear forwards;
+}.java{
+    
+    animation: jav 2s linear forwards;
+}
+@keyframes  html{
+    100%{
+        width:90%
+    }
+}
+
+@keyframes  Css{
+    100%{
+        width:75%
+    }
+}
+@keyframes  javascript{
+    100%{
+        width:25%
+    }
+}
+@keyframes  java{
+    100%{
+        width:65%
+    }
+}
