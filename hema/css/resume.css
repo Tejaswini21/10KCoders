@@ -1,0 +1,32 @@
+.leftside{
+    /* height: 800px; */
+    /* width:400px; */
+    background-color: teal;
+    color:white;
+    
+    
+}
+body
+    {
+    background-color: aquamarine;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+.details{
+    list-style: none;
+}
+h3{
+    text-align: center;
+}
+.rightside{
+    /* height: 800px; */
+    /* width:600px; */
+    background-color: white;
+    
+}
+.container{
+    display:flex;
+    flex-grow: 2;
+}
+    
