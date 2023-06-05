@@ -1,0 +1,10 @@
+alert("This is a alert box");
+alert(location.hostname);
+var x="Welcome to 10KCoders";
+alert(x);
+var y= "Mounika";
+alert(y);
+var z="Form contains errors";
+alert(z);
+var s="Form submitted";
+alert(s);
